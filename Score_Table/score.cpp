@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<string.h>
 
 typedef struct {
 	int sum, goal;
@@ -52,8 +51,8 @@ int main()
 		}
 		else if (k[1].goal == k[2].goal)
 		{
-			printf("TIE\n");
-			printf("\n\nteam : %s score = %d goal = %d\nteam : %s score = %d goal = %d", team1, k[1].sum, k[1].goal, team2, k[2].sum, k[2].goal);
+			printf("\n\nTIE\n");
+			printf("team : %s score = %d goal = %d\nteam : %s score = %d goal = %d", team1, k[1].sum, k[1].goal, team2, k[2].sum, k[2].goal);
 
 		}
 
