@@ -18,9 +18,12 @@ int main()
 	char team1[100], team2[100];
 	Calculate k[3];
 
+	printf("Enter Your Team1 Name : ");
 	gets_s(team1);
+	printf("Enter Your Team2 Name : ");
 	gets_s(team2);
 
+	printf("Enter \"win lose tie score concede\" (follow this example)\n1 2 3 4 5\n4 5 6 7 8\n\nEnter yours\n");
 
 	for (int i = 1; i <= 2; i++)
 	{
